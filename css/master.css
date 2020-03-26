@@ -6,7 +6,8 @@
 
 body {
   height: 100vh;
-  background: #c9c9c9;
+  background: url(https://www.thetrainline.com/cmsmedia/cms/11224/france_train2_hero_2x.jpg);
+  background-size: cover;
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
   border: 1px solid #555;
   border-radius: 5px;
   padding: 20px;
-  animation: colors 2s ease 0s infinite normal;
+  animation: colors 3s ease 0s infinite normal;
   color: #fff;
 }
 

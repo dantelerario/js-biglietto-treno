@@ -21,12 +21,14 @@ console.log(age)
 
 
 if (age < 18) {
-  console.log('Il prezzo è ' + price20.toFixed(2) + ' con sconto del 20% per under 18');
+  document.getElementById('finalprice').innerHTML = 'Il prezzo è ' + price20.toFixed(2) + '€ con sconto del 20% per under 18';
+  console.log('Il prezzo è ' + price20.toFixed(2) + '€ con sconto del 20% per under 18');
 }
 else if (age > 64) {
-  // document.getElementById('finalprice').innerHTML = 'Il prezzo è ' + price40.toFixed(2) + ' con sconto del 40% per over 65';
+  document.getElementById('finalprice').innerHTML = 'Il prezzo è ' + price40.toFixed(2) + ' con sconto del 40% per over 65';
   console.log('Il prezzo è ' + price40.toFixed(2) + ' con sconto del 40% per over 65');
 }
 else {
+  document.getElementById('finalprice').innerHTML = 'Il prezzo è ' + price.toFixed(2) + '€';
   console.log('Il prezzo è ' + price.toFixed(2));
 }
